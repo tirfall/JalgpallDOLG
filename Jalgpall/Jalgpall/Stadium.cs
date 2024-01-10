@@ -19,6 +19,7 @@ namespace Jalgpall
             Width = width;
             Height = height;
 
+
             HorizontalLine upLine = new HorizontalLine(0, width - 2, 0, '-');
             HorizontalLine downLine = new HorizontalLine(0, width - 2, height - 1, '_');
             VerticalLine leftLine = new VerticalLine(0, height - 1, 0, '[');
